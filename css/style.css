@@ -1,9 +1,78 @@
-.test-link {
-    color: black;
+/* акцент #18A0FB */
+/* цвет текста #000 */
+/* цвет втор текста rgba(0, 0, 0, 0.8) */
+/* цвет фона #fff */
+/* цвет фтор фона #F5F5F5 */
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000 ;
+    --accent-color: #18A0FB ;
+    --primary-white-color: #fff ;
 }
-.test-link:hover,.test-link:focus {
-    color: #ff0000
-} 
- .test-link:active {
-     color: teal
- }
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color) ;
+}
+
+.logo:focus, .logo:hover {
+    color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav a {
+    color: var(--accent-color) ;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+
+/* акцент #18A0FB */
+/* цвет текста #000 */
+/* цвет втор текста rgba(0, 0, 0, 0.8) */
+/* цвет фона #fff */
+/* цвет фтор фона #F5F5F5 */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+
+/* work examples */
+.work-list .title {
+    color:var(--title-text-color) ;
+}
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);   
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color:  var(--primary-white-color);
+}
