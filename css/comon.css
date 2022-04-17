@@ -18,9 +18,9 @@ body {
 .logo {
     color: var(--title-text-color) ;
     font-family: Comfortaa, cursive;
-    Font size: 28px;
-    Line height: 1.14;
-    Letter spacing: -1.5%;
+    Font-size: 28px;
+    Line-height: 1.14;
+    letter-spacing: -0.015em;
     text-decoration: none;;
 }
 
@@ -31,8 +31,8 @@ body {
 .site-nav a {
     color: var(--accent-color) ;
     font-weight: 500;
-    Font size: 15px;
-    Line height: 1.2;
+    Font-size: 15px;
+    Line-height: 1.2;
     
     text-decoration: none;
 }
@@ -58,8 +58,8 @@ body {
     color: var(--title-text-color);
 
     font-weight: 400;
-    Font size: 56px;
-    Line height: 1.43;
+    Font-size: 56px;
+    Line-height: 1.43;
     text-align: Center;
 }
 
@@ -67,8 +67,8 @@ body {
     color: var(--title-text-color);
 
     font-weight: 400;
-    Font size: 48px;
-    Line height: 1.5;
+    Font-size: 48px;
+    Line-height: 1.5;
     text-align : Center;
 }
 
@@ -77,9 +77,9 @@ body {
 .work-list .title {
     color: var(--title-text-color);
 
-    Font style: 700;
-    Font size: 24px;
-    Line height: 1.5;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 
@@ -92,8 +92,8 @@ body {
     background-color: var(--primary-bg-color);
 
     font-weight: 500;
-    Font size: 15px;
-    Line height: 1.2;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 .button.primary {
