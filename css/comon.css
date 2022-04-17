@@ -11,7 +11,8 @@ body {
 
     font-family: Montserrat, sans-serif;
     letter-spacing: -0.015em;
-    
+    font-size: 18px;
+    line-height: 1.67;
 }
 
 .logo {
@@ -19,8 +20,6 @@ body {
     font-family: Comfortaa, cursive;
     Font size: 28px;
     Line height: 1.14;
-    Align: Center;
-    Vertical align: Center;
     Letter spacing: -1.5%;
     text-decoration: none;;
 }
@@ -31,6 +30,9 @@ body {
 
 .site-nav a {
     color: var(--accent-color) ;
+    font-weight: 500;
+    Font size: 15px;
+    Line height: 1.2;
     
     text-decoration: none;
 }
@@ -50,29 +52,48 @@ body {
 /* цвет фона #fff */
 /* цвет фтор фона #F5F5F5 */
 
-.section-title {
-    color: var(--title-text-color);
-}
+
 
 .hero-title {
     color: var(--title-text-color);
+
+    font-weight: 400;
+    Font size: 56px;
+    Line height: 1.43;
+    text-align: Center;
+}
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    Font size: 48px;
+    Line height: 1.5;
+    text-align : Center;
 }
 
 /* features */
-.feature-list .title{
+.feature-list .title,
+.work-list .title {
     color: var(--title-text-color);
+
+    Font style: 700;
+    Font size: 24px;
+    Line height: 1.5;
 }
 
 
 /* work examples */
-.work-list .title {
-    color:var(--title-text-color) ;
-}
+
 
 /* Button */
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
+
+    font-weight: 500;
+    Font size: 15px;
+    Line height: 1.2;
 }
 
 .button.primary {
@@ -87,4 +108,11 @@ body {
     text-decoration: none;
 }
 
+.section-description {
+    font-size: 36px;
+    line-height: 1.39;
+}
 
+.list {
+    list-style: none;
+}
