@@ -15,6 +15,14 @@ body {
     line-height: 1.67;
 }
 
+.container {
+    /* margin-left: auto;
+    margin-right: auto;      
+    width: 1440px;
+    outline: 2px solid tomato; */
+    background-color: tomato;
+}
+
 .logo {
     color: var(--title-text-color) ;
     font-family: Comfortaa, cursive;
@@ -52,15 +60,19 @@ body {
 /* цвет фона #fff */
 /* цвет фтор фона #F5F5F5 */
 
-
+.hero{
+    text-align: Center;
+}
 
 .hero-title {
+    margin: 0;padding: 0;
+    margin-bottom: 40px;
     color: var(--title-text-color);
 
     font-weight: 400;
     Font-size: 56px;
     Line-height: 1.43;
-    text-align: Center;
+    
 }
 
 .section-title {
@@ -88,24 +100,33 @@ body {
 
 /* Button */
 .button {
+    border: 1px solid transparent;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 11px 34px;
+    min-width: 130px;
+
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
 
     font-weight: 500;
     font-size: 15px;
     line-height: 1.2;
+    text-align: center;
 }
 
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    text-decoration: none;   
+    text-decoration: none; 
+    
 }
 
 .button.secondary {
     color: var(--accent-color);
     background-color:  var(--primary-white-color);
     text-decoration: none;
+    border-color: var(--accent-color);
 }
 
 .section-description {
@@ -114,5 +135,8 @@ body {
 }
 
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
+
